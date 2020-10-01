@@ -1,5 +1,4 @@
-heroku-buildpack-imagemagick
-============================
+# heroku-buildpack-imagemagick
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) working with [`heroku-18`](https://devcenter.heroku.com/articles/stack) for vendoring the ImageMagick binaries into your project.
 
@@ -7,7 +6,7 @@ This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) wo
 
 In your project root:
 
-`heroku buildpacks:add https://github.com/q-m/heroku-buildpack-imagemagick  --index 1 --app HEROKU_APP_NAME`
+`heroku buildpacks:add https://github.com/jeremybarbet/heroku-buildpack-imagemagick --index 1 --app HEROKU_APP_NAME`
 
 ### Changing version
 
